@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: white;
+}
+.header {
+  width: 100%;
+  height: 133vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url(header-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+.logo {
+  width: 170px;
+  cursor: pointer;
+  margin-top: 5px;
+  
+  margin-left: -80px;
+}
+.box
+{
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 30%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 30px;
+  
+}
+
+.box h1{
+  font-weight: bold;
+  font-size: 34px;
+  margin-left: 20px;
+  padding: 50px 6%;
+}
+.box input
+{
+  display: block;
+  width: 80%;
+margin: auto;
+margin-top: 14px;
+padding: 15px 1%;
+background-color: #333333;
+outline: none;
+border: none;
+color: white;
+border-radius:5px;
+
+
+}
+.box input:hover
+{
+  border-bottom: 4px solid #bb6a0f;
+  border-right: 1px solid #bb6a0f;
+  
+}
+.signIn-btn
+{
+ margin: auto;
+ background-color: red;
+ margin-left: 45px;
+ margin-top: 35px;
+ font-size: 18px;
+ width: 80%;
+ padding: 13px;
+ border-radius: 5px;
+ border-width: 1px;
+ text-align: center;
+ font-weight: bold;
+ color: white;
+ cursor: pointer;
+}
+.signIn-btn:hover
+{
+background-color: rgb(238, 7, 7);
+}
+.login-need-help
+{
+
+position: relative;
+margin-left: 550px;
+margin-top:  -210px;
+font-size: 15px;
+color: #696868;
+}
+
+
+.need{
+  position: relative;
+margin-left: 56%;
+font-size: 14px;
+margin-top: -25px;
+color: #696868;
+cursor: pointer;
+
+
+}
+.need:hover{
+  text-decoration: underline;
+}
+.new
+{
+  position: relative;
+  margin-left: 38.5%;
+  font-size: 18px;
+  margin-top: 14px;
+  color: #696868;
+  cursor: pointer;
+}
+.span
+{
+
+  color: white;
+  font-size: 17px;
+  
+}
+.span:hover{
+  text-decoration: underline;
+}
+.text{
+  position: relative;
+  margin-left: 550px;
+  width: 24%;
+  color: #696868;
+  font-size: 14px;
+  margin-top: 10px;
+
+
+}
+.footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+  padding: 10px 5% 10px;
+    
+    color: #777;
+  position: absolute;
+  padding: 0;
+  margin-left: -136px;
+  
+}
+
+.footer h2
+ {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 190px;
+    position: relative;
+    margin-top: 30px;
+ }
+ .footer .col
+{
+    flex-basis: 25%;    
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a
+{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row
+{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .language-btn
+{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright-txt
+{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.language-btn {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #565555;
+  padding: 7px 10px;
+  font-size: 16px;
+
+}
+.language-btn i {
+  width: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+ 
+  
+}
+.footer .language-btn
+{
+    color: #777;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-left: 200px;
+    position: relative;
+}
+/* -----------------------------responsiveses_------------------------------- */
+@media only screen and (max-width: 800px)
+{
+ .header{
+  background-image: none;
+ }
+ .logo
+ {
+  display: none;
+ }
+ .box h1
+ {
+  /* margin:-50px; */
+  margin-left: -130px;
+  margin-top: -70px;
+ }
+ .box input{
+  position: relative;
+  margin-left: -120px;
+  width: 350px;
+  padding: 12px;
+ }
+ .signIn-btn
+{
+  width: 350px;
+  margin-left: -120px;
+  position: relative;
+}
+.login-need-help{
+  position: relative;
+  margin-left:  -5px;
+  margin-top: -50px;
+}
+.need{
+  position: relative;
+  margin-left: 250px;
+  margin-top: -25px;
+}
+.new{
+  position: relative;
+  margin-left: -4%;
+  padding: 10px;
+  margin-top: 150px;
+}
+.text{
+  position: relative;
+  margin-left: -5px;
+  width: 100%;
+}
+
+
+
+}
